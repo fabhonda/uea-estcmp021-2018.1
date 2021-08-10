@@ -1,0 +1,44 @@
+Abstração -> habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais.
+
+Abstração ajuda a trabalhar com uma CÓPIA SIMPLIFICADA da COISA REAL (difícil de lidar, possui muitos detalhes).
+
+Cópia simplificada = modelo = abstração da coisa real
+
+Objeto -> abstração de alguma coisa do mundo real
+Programar em OO -> escrever programas que possam REPRESENTAR e realizar COMPUTAÇÕES sobre objetos
+
+Objeto = Características + Comportamentos
+	Características -> descrevem, identificam ou particularizam o objeto (não são parte dele)
+	Comportamento -> uma ação que um objeto sabe realizar (uma habilidade)
+
+No mundo OO:
+	Características -> ATRIBUTOS/campos/variáveis de instância
+	Comportamentos -> MÉTODOS/operações
+
+
+Classe -> abstração que descreve os atributos e as operações de um conjunto homogêneo de objetos.
+
+Instanciação -> é o processo que permite um objeto ser criado a partir de uma classe (um objeto é uma instância de uma classse)
+
+Pacotes -> usados pra organizar as classes semelhantes
+
+Construtor -> procedimento especial cuja principal função é criar um objeto/parâmetro: 0*/mesmo nome da classe
+
+Overloading (Sobrecarga) -> métodos na mesma classe com o mesmo nome mas assinaturas diferentes (tipo e/ou número de argumentos)
+
+Interface -> conjunto dos métodos visíveis (acessíveis) de uma classe
+
+Classe encapsulada > só pode ser utilizada por meio de sua interface
+
+Encapsular uma classe -> ocultar os atributos e fornecer uma interface para outras classes
+
+Duas classes com alto acoplamento são muito dependentes entre si
+Função do encapsulamento: diminuir esse acoplamento: código mais flexível a mudanças
+
+Arraylist -> classe para coleções, qualquer tipo de dado
+
+Associação -> certos objetos precisam conhecer outros porque dependem de tais
+
+Multiplicidade -> quantidade mínima e máxima de objetos com quais um objetos está associado
+
+Conectividades -> quatro tipos de combinações mais usadas
